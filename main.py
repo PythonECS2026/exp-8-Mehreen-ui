@@ -4,11 +4,10 @@
 # Coder: mehreen ansari
 # Date: 20/02/2026
 
-print("--- Pattern Printer ---\n")
-
 n = int(input())
 for i in range(1, n + 1):
     for j in range(i):
         print("*", end="")
     print()
+
 
